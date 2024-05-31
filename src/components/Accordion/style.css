@@ -1,62 +1,50 @@
-
-
-
-
-
 #faq-card {
+    z-index: 1;
     background-color: white;
     border-radius: 10px;
     max-width: 550px;
     padding: 20px;
-    position: relative;
-    margin: auto;
-}
-
-.faq-list {
+    margin: auto; 
+  }
+  
+  .faq-list {
     list-style: none;
-}
-
-#faq-header {
-    display: flex;
-    gap: 10px;
-}
-
-#faq-header img {
-    width: 2rem;
-}
-
-#faq-header, 
-.faq-item-title {
-    font-size: 1.5rem;
+  }
+  
+  #faq-header,
+  .faq-item-title {
     display: flex;
     align-items: center;
-}
+    gap: 1rem;
+  }
+  
+  #faq-header img {
+    width: 2.5rem;
+  }
+  
+  #faq-header {
+    font-size: 1.5rem;
+  }
 
-
-
-.faq-item-title {
+ 
+  .faq-item-title {
     color: var(--dark-purple);
     font-size: 1.2rem;
     cursor: pointer;
-    gap: 2rem;
-    justify-content: space-between;
-
-}
-
-.faq-item-title:hover {
+    justify-content: space-between; 
+  }
+  
+  .faq-item-title:hover {
     color: var(--bright-purple);
     transition: color 0.5s;
-}
-
-.faq-item {
+  }
+  
+  .faq-item {
     border-bottom: 2px solid var(--light-pink);
-    padding: 2rem;
-
-}
-
-.faq-item .item-description {
+    padding: 2rem 0; 
+  }
+  
+  .faq-item .item-description {
     font-size: 1.4rem;
     color: var(--grayish-purple);
-
-}
-
+  }

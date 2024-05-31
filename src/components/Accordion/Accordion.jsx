@@ -28,7 +28,7 @@ export default function Accordion({ questionsData }) {
               </div>
               {index === activeQuestionIndex && ( 
                 <p className="item-description">
-                  {question.description}
+                  {question.answer}
                 </p>
               )}
             </li>

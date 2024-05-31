@@ -3,37 +3,26 @@ import Accordion from './components/Accordion/Accordion';
 
 function App() {
 
-    const accordionData = [
+    const accordionFaq = [
     {
       id: 0,
-      title: "How many team members can I invite?",
-      description: `You can invite up to 2 additional users on the Free plan.
-       There is no limit on team members for the Premium plan`,
-       active: false
+      title: "What is Frontend Mentor, and how will it help me?",
+      answer: `Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.`,
     },
     { 
       id: 1,
-      title: "What is the maximum file upload size?",
-      description: "No more than 2GB. All files in your account must fit your allotted storage space.",
-       active: false
+      title: "Is Frontend Mentor free?",
+      answer: "Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.",
     },
     { 
       id: 2,
-      title: "How do I reset my password?",
-      description: "Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.",
-       active: false
+      title: "Can I use Frontend Mentor projects in my portfolio?",
+      answer: "  Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!",
     },
     {
       id: 3,
-      title: "Can I cancel my subscription?",
-      description: "Yes! Send us a message and we'll process your request no questions asked.",
-       active: false
-    },
-    {
-      id: 4,
-      title: "Do you provide additional support?",
-      description: "Chat and email support is available 24/7. Phone lines are open during normal business hours.",
-       active: false
+      title: "How can I get help if I'm stuck on a Frontend Mentor challenge?",
+      answer: "The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.",
     }
   ]
 
@@ -41,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <div id='bg-img'></div>
-      <Accordion questionsData={accordionData}/>
+      <Accordion questionsData={accordionFaq}/>
 
     </div>
   );
