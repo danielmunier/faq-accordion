@@ -47,4 +47,5 @@
   .faq-item .item-description {
     font-size: 1.4rem;
     color: var(--grayish-purple);
+    padding: 0.5rem;
   }
